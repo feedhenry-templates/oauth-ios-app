@@ -1,4 +1,4 @@
-# oauth-ios-app 
+# oauth-ios-app [![Build Status](https://travis-ci.org/feedhenry-templates/oauth-ios-app.png)](https://travis-ci.org/feedhenry-templates/oauth-ios-app)
 
 ```oauth-ios-app``` is a simple to demo OAuth2 usage in RHMAP (Red Hat Mobile Application Platform).
 
