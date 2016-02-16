@@ -4,7 +4,7 @@ Author: Corinne Krych
 Level: Intermediate  
 Technologies: Objective-C, iOS, RHMAP, cocoapods.
 Summary: A demonstration of how to use oauth usage with RHMAP. 
-Community Project : [Feed Henry](http://feedhenry.org)
+Community Project : [Feed Henry](http://feedhenry.org). **Community Only, not available as template in RHMAP.**
 Target Product: RHMAP  
 Product Versions: RHMAP 3.7.0+   
 Source: https://github.com/feedhenry-templates/oauth-ios-app  
@@ -20,7 +20,9 @@ If you do not have access to a RHMAP instance, you can sign up for a free instan
 
 ### RHMAP Studio
 
-This application and its cloud services are available as a project template in RHMAP as part of the "Sync Framework Project" template.
+This is a community project. It is not available in RHMAP, but you can easely used it in RHMAP doing the following steps:
+- create a blank project in RHMAP
+- follow local Clone instructions.
 
 ### Local Clone (ideal for Open Source Development)
 If you wish to contribute to this template, the following information may be helpful; otherwise, RHMAP and its build facilities are the preferred solution.
