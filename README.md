@@ -1,26 +1,45 @@
 # oauth-ios-app [![Build Status](https://travis-ci.org/feedhenry-templates/oauth-ios-app.png)](https://travis-ci.org/feedhenry-templates/oauth-ios-app)
 
-```oauth-ios-app``` is a simple to demo OAuth2 usage in RHMAP (Red Hat Mobile Application Platform).
+Author: Corinne Krych   
+Level: Intermediate  
+Technologies: Objective-C, iOS, RHMAP, cocoapods.
+Summary: A demonstration of how to use oauth usage with RHMAP. 
+Community Project : [Feed Henry](http://feedhenry.org). **Community Only, not available as template in RHMAP.**
+Target Product: RHMAP  
+Product Versions: RHMAP 3.7.0+   
+Source: https://github.com/feedhenry-templates/oauth-ios-app  
+Prerequisites: fh-ios-sdk : 3.+, Xcode : 7.2+, iOS SDK : iOS7+
 
-|                 | Project Info  |
-| --------------- | ------------- |
-| License:        | Apache License, Version 2.0  |
-| Build:          | cocoapods  |
-| Xcode:  | 7.X|
-| iOS:  | iOS7, iOS8, iOS9|
-| Language:  | Objective-C|
-| Documentation:  | http://docs.feedhenry.com/v3/dev_tools/sdks/ios.html, http://docs.feedhenry.com/v3/product_features/admin.html#admin-auth_policies|
+## What is it?
 
-### Build
+Simple OAuth demo to see how to use OAuth2 external providers like Google to authenticate in RHMAP.  The user can choose ina list of auth providers: Google, RHMAP OAuth2 service to perform authentication and authorisation in RHMAP.
+
+If you do not have access to a RHMAP instance, you can sign up for a free instance at [https://openshift.feedhenry.com/](https://openshift.feedhenry.com/).
+
+## How do I run it?  
+
+### RHMAP Studio
+
+This is a community project. It is not available in RHMAP, but you can easely used it in RHMAP doing the following steps:
+- create a blank project in RHMAP
+- follow local Clone instructions.
+
+### Local Clone (ideal for Open Source Development)
+If you wish to contribute to this template, the following information may be helpful; otherwise, RHMAP and its build facilities are the preferred solution.
+
+## Build instructions
 
 1. Clone this project
 
 2. Populate ```FHAuthDemo/fhconfig.plist``` with your values as explained [here](http://docs.feedhenry.com/v3/dev_tools/sdks/ios.html#ios-configure).
-3. pod install
 
-4. open FHAuthDemo.xcworkspace
+3. Run ```pod install```
 
-## Example Usage
+4. Open FHAuthDemo.xcworkspace
+
+5. Run the project
+ 
+## How does it work?
 
 ### Set up Google provider
 To set up the example to worl with Gloogle OAuth2 provider, go in:
@@ -54,3 +73,5 @@ In ```FHAuthDemo/FHLoginViewController.m```:
 ### Running the app
 
 ![Google console](screenshots/oauth_app.png)
+
+
