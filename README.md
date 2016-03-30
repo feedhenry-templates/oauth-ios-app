@@ -74,4 +74,14 @@ In ```FHAuthDemo/FHLoginViewController.m```:
 
 ![Google console](screenshots/oauth_app.png)
 
+### iOS9 and non TLS1.2 backend
 
+If your RHMAP is deployed without TLS1.2 support, open as source  ```FHAuthDemo/FHAuthDemo-Info.plist``` add the exception lines:
+
+```
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+  </dict>
+```
