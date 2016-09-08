@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FBACCC8D0DF146058DCCE34 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA653BD6F626CDB743ADEC77 /* libPods.a */; };
+		2DEE6C48D1B57F82CCA2F6E2 /* libPods-FHAuthDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F86B9EFE965DB2776D680A1D /* libPods-FHAuthDemo.a */; };
 		6FB4F7F51A9F237E002693DA /* auth_feedhenry.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB4F7F31A9F237E002693DA /* auth_feedhenry.png */; };
 		6FB4F7F61A9F237E002693DA /* auth_google.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB4F7F41A9F237E002693DA /* auth_google.png */; };
 		6FB4F7F81A9F239A002693DA /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FB4F7F71A9F239A002693DA /* fhconfig.plist */; };
@@ -28,7 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25E415AAEEFC4052C91BF60A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6FB4F7F31A9F237E002693DA /* auth_feedhenry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = auth_feedhenry.png; path = FHAuthDemo/Resources/auth_feedhenry.png; sourceTree = SOURCE_ROOT; };
 		6FB4F7F41A9F237E002693DA /* auth_google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = auth_google.png; path = FHAuthDemo/Resources/auth_google.png; sourceTree = SOURCE_ROOT; };
 		6FB4F7F71A9F239A002693DA /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = fhconfig.plist; path = FHAuthDemo/fhconfig.plist; sourceTree = SOURCE_ROOT; };
@@ -60,8 +59,9 @@
 		6FB4F8171A9F241E002693DA /* HelloViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HelloViewController.xib; path = FHAuthDemo/HelloViewController.xib; sourceTree = SOURCE_ROOT; };
 		6FB4F8181A9F241E002693DA /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = FHAuthDemo/RootViewController.xib; sourceTree = SOURCE_ROOT; };
 		A2CD31FA14D0300200C4D3F0 /* FHAuthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHAuthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B075ADE3F24AB53980686AD4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		DA653BD6F626CDB743ADEC77 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE61D4E3FC8FF0C1174275E /* Pods-FHAuthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHAuthDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FHAuthDemo/Pods-FHAuthDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DEE7FF2D4490F2293ACACB6C /* Pods-FHAuthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FHAuthDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FHAuthDemo/Pods-FHAuthDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F86B9EFE965DB2776D680A1D /* libPods-FHAuthDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FHAuthDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FBACCC8D0DF146058DCCE34 /* libPods.a in Frameworks */,
+				2DEE6C48D1B57F82CCA2F6E2 /* libPods-FHAuthDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,8 +79,8 @@
 		5757DA34925649F8FE903478 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				25E415AAEEFC4052C91BF60A /* Pods.debug.xcconfig */,
-				B075ADE3F24AB53980686AD4 /* Pods.release.xcconfig */,
+				ABE61D4E3FC8FF0C1174275E /* Pods-FHAuthDemo.debug.xcconfig */,
+				DEE7FF2D4490F2293ACACB6C /* Pods-FHAuthDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -106,7 +106,7 @@
 		A2CD31FD14D0300200C4D3F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DA653BD6F626CDB743ADEC77 /* libPods.a */,
+				F86B9EFE965DB2776D680A1D /* libPods-FHAuthDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,12 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2CD322714D0300200C4D3F0 /* Build configuration list for PBXNativeTarget "FHAuthDemo" */;
 			buildPhases = (
-				2EC7B73697E9C95C855CF2C1 /* Check Pods Manifest.lock */,
+				2EC7B73697E9C95C855CF2C1 /* [CP] Check Pods Manifest.lock */,
 				A2CD31F614D0300200C4D3F0 /* Sources */,
 				A2CD31F714D0300200C4D3F0 /* Frameworks */,
 				A2CD31F814D0300200C4D3F0 /* Resources */,
-				25E50A9E29BE8C93FF60B314 /* Copy Pods Resources */,
-				74BB02B0CBEA4172526B6D70 /* Embed Pods Frameworks */,
+				25E50A9E29BE8C93FF60B314 /* [CP] Copy Pods Resources */,
+				74BB02B0CBEA4172526B6D70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,29 +234,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		25E50A9E29BE8C93FF60B314 /* Copy Pods Resources */ = {
+		25E50A9E29BE8C93FF60B314 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FHAuthDemo/Pods-FHAuthDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2EC7B73697E9C95C855CF2C1 /* Check Pods Manifest.lock */ = {
+		2EC7B73697E9C95C855CF2C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,19 +264,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		74BB02B0CBEA4172526B6D70 /* Embed Pods Frameworks */ = {
+		74BB02B0CBEA4172526B6D70 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FHAuthDemo/Pods-FHAuthDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -384,7 +384,7 @@
 		};
 		A2CD322814D0300200C4D3F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25E415AAEEFC4052C91BF60A /* Pods.debug.xcconfig */;
+			baseConfigurationReference = ABE61D4E3FC8FF0C1174275E /* Pods-FHAuthDemo.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -398,7 +398,7 @@
 		};
 		A2CD322914D0300200C4D3F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B075ADE3F24AB53980686AD4 /* Pods.release.xcconfig */;
+			baseConfigurationReference = DEE7FF2D4490F2293ACACB6C /* Pods-FHAuthDemo.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
