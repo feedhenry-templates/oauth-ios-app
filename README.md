@@ -46,11 +46,11 @@ To set up the example to worl with Gloogle OAuth2 provider, go in:
 
 * [Google dev console](https://console.developers.google.com/):
 Create a web credentials, add the callback URL as shown below:
-![Google console](screenshots/google_oauth2_config.png)
+![Google console](https://raw.githubusercontent.com/feedhenry-templates/oauth-ios-app/master/screenshots/google_oauth2_config.png)
 
 * in RHMAP:
 Go to ```Admin > Auth Policies```, select the ```Create``` button.
-![Google console](screenshots/rhmap_oauth2_config.png)
+![Google console](https://raw.githubusercontent.com/feedhenry-templates/oauth-ios-app/master/screenshots/rhmap_oauth2_config.png)
 
 ### Set up FHAuthDemo
 
@@ -72,7 +72,7 @@ In ```FHAuthDemo/FHLoginViewController.m```:
 
 ### Running the app
 
-![Google console](screenshots/oauth_app.png)
+![Google console](https://raw.githubusercontent.com/feedhenry-templates/oauth-ios-app/master/screenshots/oauth_app.png)
 
 ### iOS9 and non TLS1.2 backend
 
