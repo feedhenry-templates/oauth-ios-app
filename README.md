@@ -1,4 +1,5 @@
-# oauth-ios-app [![Build Status](https://travis-ci.org/feedhenry-templates/oauth-ios-app.png)](https://travis-ci.org/feedhenry-templates/oauth-ios-app)
+# oauth-ios-app
+[![Build Status](https://travis-ci.org/feedhenry-templates/oauth-ios-app.png)](https://travis-ci.org/feedhenry-templates/oauth-ios-app)
 
 Author: Corinne Krych   
 Level: Intermediate  
