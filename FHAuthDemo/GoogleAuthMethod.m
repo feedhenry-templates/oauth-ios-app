@@ -30,26 +30,27 @@
     NSLog(@"parsed response %@ type=%@",res.parsedResponse,[res.parsedResponse class]);
 #endif
     if ([[[res parsedResponse] valueForKey:@"status"] isEqualToString:@"error"]) {
-      [self showMessage:@"Failed" message:[res.parsedResponse valueForKey:@"message"]];
+      [self showMessage:@"Failed" message:[res.parsedResponse valueForKey:@"message"] viewController:viewController];
     } else {
-      [self showMessage:@"Success" message:[res.parsedResponse JSONString]];
+      [self showMessage:@"Success" message:[res.parsedResponse JSONString] viewController:viewController];
     }
   };
   void (^failure)(FHResponse *)=^(FHResponse* res){
 #if DEBUG
     NSLog(@"parsed response %@ type=%@",res.parsedResponse,[res.parsedResponse class]);
 #endif
-    [self showMessage:@"Failed" message:res.rawResponseAsString];
+    [self showMessage:@"Failed" message:res.rawResponseAsString viewController:viewController];
   };
 
   [authRequest execAsyncWithSuccess:success AndFailure:failure];
 }
 
-- (void) showMessage:(NSString* )title message:(NSString*)msg 
+- (void) showMessage:(NSString* )title message:(NSString*)msg viewController:(UIViewController*) viewController
 {
-  UIAlertView* alert = [[UIAlertView alloc] initWithTitle:title message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-  [alert show];
-  [alert release];
+  UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:msg preferredStyle:UIAlertControllerStyleAlert];
+  [alertController addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
+  [viewController presentViewController:alertController animated:YES completion:nil];
+  [alertController release];
 }
 
 @end
